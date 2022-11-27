@@ -23,3 +23,21 @@ function multipleOfNumbers(n) {
 // console.log(multipleOfNumbers(10))// big o n2
 
 
+function sum(array) {
+    let total = 0
+    for (let i = 0; i < array.length; i++) {
+        total += array[i]
+    }
+    return total;
+}
+console.log(sum([2, 4, 6]))
+
+function double(array) {
+    let newArray = []
+    for (let i = 0; i < array.length; i++) {
+        newArray.push(array[i] * 2)
+    }
+    return newArray;
+}
+console.log(double([2, 4, 6]))
+
